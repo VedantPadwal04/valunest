@@ -82,10 +82,18 @@ function App() {
               value — all in one place.
             </p>
 
+<<<<<<< HEAD
             {/* SEARCH BOX */}
             <div className="search-box">
               <div className="search-field">
                 <MapPin size={21} />
+=======
+            {/* SEARCH */}
+            <div className="search-box">
+              <div className="search-field">
+                <MapPin size={21} />
+
+>>>>>>> 48c0a33 (Build ValuNest landing page)
                 <div>
                   <label>Location</label>
                   <input
@@ -99,8 +107,15 @@ function App() {
 
               <div className="search-field">
                 <Home size={21} />
+<<<<<<< HEAD
                 <div>
                   <label>Property Type</label>
+=======
+
+                <div>
+                  <label>Property Type</label>
+
+>>>>>>> 48c0a33 (Build ValuNest landing page)
                   <select defaultValue="">
                     <option value="" disabled>
                       Select type
@@ -118,8 +133,15 @@ function App() {
 
               <div className="search-field">
                 <KeyRound size={21} />
+<<<<<<< HEAD
                 <div>
                   <label>Purpose</label>
+=======
+
+                <div>
+                  <label>Purpose</label>
+
+>>>>>>> 48c0a33 (Build ValuNest landing page)
                   <select defaultValue="Buy">
                     <option>Buy</option>
                     <option>Rent</option>
@@ -214,7 +236,11 @@ function App() {
           </div>
         </section>
 
+<<<<<<< HEAD
         {/* VALUATION SECTION */}
+=======
+        {/* VALUATION */}
+>>>>>>> 48c0a33 (Build ValuNest landing page)
         <section className="valuation-section" id="valuation">
           <div className="valuation-container">
             <div className="valuation-content">
@@ -269,7 +295,11 @@ function App() {
           </div>
         </section>
 
+<<<<<<< HEAD
         {/* TRUST */}
+=======
+        {/* WHY VALUNEST */}
+>>>>>>> 48c0a33 (Build ValuNest landing page)
         <section className="trust-section" id="about">
           <div className="section-container trust-content">
             <span className="eyebrow">WHY VALUNEST</span>
@@ -331,4 +361,8 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 48c0a33 (Build ValuNest landing page)
